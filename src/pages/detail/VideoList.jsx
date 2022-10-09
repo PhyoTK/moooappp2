@@ -45,7 +45,12 @@ const Video = props => {
             <div className="video__title">
                 <h2>{item.name}</h2>
             </div>
-            <iframe src="https://drive.google.com/file/d/1FNgK_OOkOviuedMP6S2S6UlDT608twJm/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe
+                src={`https://www.youtube.com/embed/${item.key}`}
+                ref={iframeRef}
+                width="100%"
+                title="video"
+            ></iframe>
         </div>
     )
 }
