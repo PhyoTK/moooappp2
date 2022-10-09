@@ -10,7 +10,9 @@ import VideoList from './VideoList';
 
 import MovieList from '../../components/movie-list/MovieList';
 
-const tkmovie = "https://tkmovie.cf/1:/m_english/1917_2019/"
+const tkmovie = {
+tmovie: "https://tkmovie.cf/1:/m_english/1917_2019/";
+}
 
 const Detail = () => {
 
@@ -52,7 +54,7 @@ const Detail = () => {
                                     <a href=''>Play on MX Player</a>
                                 </div>
                                 <div>
-                                    <a href="{tkmovie}">Play on Pot Player</a>
+                                    <a href="{tkmovie.tmovie}">Play on Pot Player</a>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
