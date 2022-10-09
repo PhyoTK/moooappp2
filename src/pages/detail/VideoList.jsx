@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 
 import tmdbApi from '../../api/tmdbApi';
 
-const videoUrl= "https://tkmovie.cf/1:/m_english/1917_2019/",
+const videoUrl= "https://tkmovie.cf/1:/m_english/1917_2019/";
 
 const VideoList = props => {
 
