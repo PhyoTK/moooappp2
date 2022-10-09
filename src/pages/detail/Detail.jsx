@@ -11,7 +11,7 @@ import VideoList from './VideoList';
 import MovieList from '../../components/movie-list/MovieList';
 
 const tkmovie = {
-tmovie: "https://tkmovie.cf/1:/m_english/1917_2019/";
+tmovie: "https://tkmovie.cf/1:/m_english/1917_2019/",
 }
 
 const Detail = () => {
