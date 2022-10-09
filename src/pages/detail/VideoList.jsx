@@ -4,6 +4,8 @@ import { useParams } from 'react-router';
 
 import tmdbApi from '../../api/tmdbApi';
 
+const videoUrl= "https://tkmovie.cf/1:/m_english/1917_2019/",
+
 const VideoList = props => {
 
     const {category} = useParams();
@@ -46,7 +48,7 @@ const Video = props => {
                 <h2>{item.name}</h2>
             </div>
             <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
-                  <source src= videoUrl + "" type="video/mp4" />
+                  <source src= "videoUrl + '530915.mp4'" type="video/mp4" />
             </video>
         </div>
     )
