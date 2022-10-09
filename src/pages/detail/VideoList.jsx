@@ -46,7 +46,7 @@ const Video = props => {
                 <h2>{item.name}</h2>
             </div>
             <iframe
-                src={`https://youtu.be/embed/${item.key}`}
+                src={`https://www.youtube.com/embed/${item.key}`}
                 ref={iframeRef}
                 width="100%"
                 title="video"
