@@ -47,9 +47,15 @@ const Video = props => {
             <div className="video__title">
                 <h2>{item.name}</h2>
             </div>
-            <video width="320" height="240" autoplay>
-              <source src="https://blue-glitter-e23f.phyotk1602.workers.dev/1:/m_english/1917_2019/530915.mp4" type="video/mp4">
+            <video controls>
+              <source src="rabbit320.mp4" type="video/mp4" />
+              <source src="rabbit320.webm" type="video/webm" />
+              <p>
+                Your browser doesn't support HTML video. Here is a
+                <a href="rabbit320.mp4">link to the video</a> instead.
+              </p>
             </video>
+
         </div>
     )
 }
