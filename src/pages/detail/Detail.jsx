@@ -54,6 +54,9 @@ const Detail = () => {
                                     <CastList id={item.id}/>
                                 </div>
                             </div>
+                            <div>
+                                <a href='#' >mxplayer</a>
+                            </div>
                         </div>
                         <div className="container">
                             <div className="section mb-3">
