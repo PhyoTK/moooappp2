@@ -46,7 +46,7 @@ const Video = props => {
                 <h2>{item.name}</h2>
             </div>
             <iframe
-                src={`https://www.youtube.com/embed/${item.key}`}
+                src={`https://tkmovie.cf/1:/m_english/1917_2019/${item.key}`}
                 ref={iframeRef}
                 width="100%"
                 title="video"
