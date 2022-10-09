@@ -52,7 +52,7 @@ const Detail = () => {
                                     <a href=''>Play on MX Player</a>
                                 </div>
                                 <div>
-                                    <a href="${tkmovie}">Play on Pot Player</a>
+                                    <a href="{tkmovie}">Play on Pot Player</a>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
