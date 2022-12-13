@@ -10,9 +10,7 @@ import VideoList from './VideoList';
 
 import MovieList from '../../components/movie-list/MovieList';
 
-const tkmovie = {
-tmovie: "https://tkmovie.cf/1:/m_english/1917_2019/",
-}
+const tkmovie = 'https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4'
 
 const Detail = () => {
 
@@ -51,10 +49,7 @@ const Detail = () => {
                                     }
                                 </div>
                                 <div>
-                                    <a href=''>Play on MX Player</a>
-                                </div>
-                                <div>
-                                    <a href="{tkmovie.tmovie}">Play on Pot Player</a>
+                                    <a href='tkmovie'>Play on MX Player</a>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
