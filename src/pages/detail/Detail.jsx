@@ -12,7 +12,7 @@ import MovieList from '../../components/movie-list/MovieList';
 const mxFree = "intent:https://tkmovie.cf/1:/m_english/vesper_2022/"
 const mxFree2 = ".mp4#Intent;package=com.mxtech.videoplayer.ad;S.title="
 const mxEnd = ";end"
-const mxSRC = mxFree+{item.title || item.name}+mxFree2+{item.title} +end;
+const mxSRC = mxFree+title+mxFree2+title+end;
 const mxURL = () => {
     window.location.href = mxSRC
 
