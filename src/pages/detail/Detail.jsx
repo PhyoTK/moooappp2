@@ -51,7 +51,7 @@ const Detail = () => {
                                     }
                                 </div>
                                 <div>
-                                    <button onClick={tkmovie}>Play on MX Player</a>
+                                    <button onClick={tkmovie}>Play on MX Player</button>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
