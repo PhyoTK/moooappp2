@@ -9,10 +9,12 @@ import CastList from './CastList';
 import VideoList from './VideoList';
 
 import MovieList from '../../components/movie-list/MovieList';
-
-const videoSRC = "potplayer://https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4";
-const videoURL = () => {
-    window.location.href = videoSRC
+const mxFree = "intent:https://tkmovie.cf/1:/m_english/vesper_2022/"
+const mxFree2 = ".mp4#Intent;package=com.mxtech.videoplayer.ad;S.title="
+const mxEnd = ";end"
+const mxSRC = mxFree+{item.title}+mxFree2+{item.title} +end;
+const mxURL = () => {
+    window.location.href = mxSRC
 
 };
 
@@ -54,7 +56,7 @@ const Detail = () => {
                                     }
                                 </div>
                                 <div>
-                                    <button onClick={videoURL}>Play on MX Player</button>
+                                    <button onClick={mxURL}>Play on MX Player</button>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
