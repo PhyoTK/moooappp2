@@ -53,7 +53,7 @@ const Detail = () => {
                                     }
                                 </div>
                                 <div>
-                                    <Button onClick={videoURL}>Play on MX Player</Link
+                                    <Button onClick={videoURL}>Play on MX Player</Button>
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
