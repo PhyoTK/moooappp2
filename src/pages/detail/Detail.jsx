@@ -10,9 +10,6 @@ import VideoList from './VideoList';
 
 import MovieList from '../../components/movie-list/MovieList';
 
-const tkmovie = () => {
-   console.log('potplayer://https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4',e)
-}
 
 const Detail = () => {
 
@@ -51,7 +48,7 @@ const Detail = () => {
                                     }
                                 </div>
                                 <div>
-                                    <button onClick={tkmovie}>Play on MX Player</button>
+                                    <Link to="potplayer://https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4">Play on MX Player</Link
                                 </div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
