@@ -11,7 +11,7 @@ import VideoList from './VideoList';
 import MovieList from '../../components/movie-list/MovieList';
 
 const videoURL = () => {
-    window.location.href = "potplayer://https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4"
+    window.location.href = {item.title || item.name}+"potplayer://https://tkmovie.cf/6:/SERIES/Complete%20Series%20/2020/9-1-1%20(911)%202018/Season%203/Copy%20of%209-1-1%20(S3)%20-%20Episode%2017.mp4"
 
 }
 
